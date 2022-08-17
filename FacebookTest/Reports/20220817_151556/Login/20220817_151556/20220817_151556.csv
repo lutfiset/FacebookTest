@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 104.0.5112.81,,,2022-08-17 15:16:16,2022-08-17 15:18:46,"2m - 30,005s",PASSED
+,,,,,,,
+Test Cases/Negatif Login fb ver 2,Chrome 104.0.5112.81,"email salah darienagree@gil.com (benar : darienagree@gmail.com)
+password benar Yes12345",,2022-08-17 15:16:25,2022-08-17 15:16:57,"31,688s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 104.0.5112.81,,,2022-08-17 15:16:26,2022-08-17 15:16:26,"0,191s",PASSED
+"openBrowser("""")",Chrome 104.0.5112.81,,,2022-08-17 15:16:27,2022-08-17 15:16:33,"5,597s",PASSED
+maximizeWindow(),Chrome 104.0.5112.81,,,2022-08-17 15:16:33,2022-08-17 15:16:33,"0,203s",PASSED
+"navigateToUrl(""https://www.facebook.com/login"")",Chrome 104.0.5112.81,,,2022-08-17 15:16:33,2022-08-17 15:16:41,"7,861s",PASSED
+"setText(findTestObject(""Object Repository/login negatif email salah pw benar/Page_Log in to Facebook/input_Log in to Facebook_email""), ""darienagree@gil.com"")",Chrome 104.0.5112.81,,,2022-08-17 15:16:41,2022-08-17 15:16:42,"1,023s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/login negatif email salah pw benar/Page_Log in to Facebook/input_Log in to Facebook_pass""), ""CP4kq14s4UIcGFAtz0pEkw=="")",Chrome 104.0.5112.81,,,2022-08-17 15:16:42,2022-08-17 15:16:42,"0,654s",PASSED
+"click(findTestObject(""Object Repository/login negatif email salah pw benar/Page_Log in to Facebook/button_Log In""))",Chrome 104.0.5112.81,,,2022-08-17 15:16:42,2022-08-17 15:16:43,"0,507s",PASSED
+waitForAlert(10),Chrome 104.0.5112.81,,,2022-08-17 15:16:43,2022-08-17 15:16:54,"10,738s",PASSED
+"takeScreenshot(""ss/screen4.png"")",Chrome 104.0.5112.81,,,2022-08-17 15:16:54,2022-08-17 15:16:55,"1,739s",PASSED
+closeBrowser(),Chrome 104.0.5112.81,,,2022-08-17 15:16:55,2022-08-17 15:16:57,"1,812s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 104.0.5112.81,,,2022-08-17 15:16:57,2022-08-17 15:16:57,"0,012s",PASSED
+,,,,,,,
+Test Cases/Negatif Login fb ver 3,Chrome 104.0.5112.81,"email salah  : darienagree (benar : darienagree@gmail.com)
+pw benar Yes12345",,2022-08-17 15:16:57,2022-08-17 15:17:32,"35,007s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 104.0.5112.81,,,2022-08-17 15:16:57,2022-08-17 15:16:57,"0,006s",PASSED
+"openBrowser("""")",Chrome 104.0.5112.81,,,2022-08-17 15:16:58,2022-08-17 15:17:05,"7,120s",PASSED
+maximizeWindow(),Chrome 104.0.5112.81,,,2022-08-17 15:17:05,2022-08-17 15:17:05,"0,167s",PASSED
+"navigateToUrl(""https://www.facebook.com/login"")",Chrome 104.0.5112.81,,,2022-08-17 15:17:05,2022-08-17 15:17:17,"11,859s",PASSED
+"setText(findTestObject(""Object Repository/login email gapake gmail, pw benar/Page_Log in to Facebook/input_Log in to Facebook_email""), ""darienagree"")",Chrome 104.0.5112.81,,,2022-08-17 15:17:17,2022-08-17 15:17:18,"0,978s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/login email gapake gmail, pw benar/Page_Log in to Facebook/input_Log in to Facebook_pass""), ""CP4kq14s4UIcGFAtz0pEkw=="")",Chrome 104.0.5112.81,,,2022-08-17 15:17:18,2022-08-17 15:17:19,"0,708s",PASSED
+"click(findTestObject(""Object Repository/login email gapake gmail, pw benar/Page_Log in to Facebook/button_Log In""))",Chrome 104.0.5112.81,,,2022-08-17 15:17:19,2022-08-17 15:17:19,"0,431s",PASSED
+waitForAlert(10),Chrome 104.0.5112.81,,,2022-08-17 15:17:19,2022-08-17 15:17:29,"10,155s",PASSED
+"takeScreenshot(""ss/screen3.png"")",Chrome 104.0.5112.81,,,2022-08-17 15:17:29,2022-08-17 15:17:31,"1,215s",PASSED
+closeBrowser(),Chrome 104.0.5112.81,,,2022-08-17 15:17:31,2022-08-17 15:17:32,"1,444s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 104.0.5112.81,,,2022-08-17 15:17:32,2022-08-17 15:17:32,"0,005s",PASSED
+,,,,,,,
+Test Cases/Negatif Login fb ver 4,Chrome 104.0.5112.81,"email benar darienagree@gmail.com
+password salah yes12345 (benar : Yes12345)",,2022-08-17 15:17:32,2022-08-17 15:17:59,"27,234s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 104.0.5112.81,,,2022-08-17 15:17:32,2022-08-17 15:17:32,"0,010s",PASSED
+"openBrowser("""")",Chrome 104.0.5112.81,,,2022-08-17 15:17:33,2022-08-17 15:17:38,"4,222s",PASSED
+maximizeWindow(),Chrome 104.0.5112.81,,,2022-08-17 15:17:38,2022-08-17 15:17:38,"0,147s",PASSED
+"navigateToUrl(""https://www.facebook.com/login"")",Chrome 104.0.5112.81,,,2022-08-17 15:17:38,2022-08-17 15:17:44,"6,624s",PASSED
+"setText(findTestObject(""Object Repository/email benar, pw salah 1 huruf/Page_Log in to Facebook/input_Log in to Facebook_email""), ""darienagree@gmail.com"")",Chrome 104.0.5112.81,,,2022-08-17 15:17:44,2022-08-17 15:17:46,"1,845s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/email benar, pw salah 1 huruf/Page_Log in to Facebook/input_Log in to Facebook_pass""), ""vQCARFRNWVUan1/SSUktaw=="")",Chrome 104.0.5112.81,,,2022-08-17 15:17:46,2022-08-17 15:17:47,"0,653s",PASSED
+"click(findTestObject(""Object Repository/email benar, pw salah 1 huruf/Page_Log in to Facebook/button_Log In""))",Chrome 104.0.5112.81,,,2022-08-17 15:17:47,2022-08-17 15:17:47,"0,460s",PASSED
+waitForAlert(10),Chrome 104.0.5112.81,,,2022-08-17 15:17:47,2022-08-17 15:17:58,"10,610s",PASSED
+"takeScreenshot(""ss/screen2.png"")",Chrome 104.0.5112.81,,,2022-08-17 15:17:58,2022-08-17 15:17:58,"0,417s",PASSED
+closeBrowser(),Chrome 104.0.5112.81,,,2022-08-17 15:17:58,2022-08-17 15:17:59,"1,088s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 104.0.5112.81,,,2022-08-17 15:17:59,2022-08-17 15:17:59,"0,002s",PASSED
+,,,,,,,
+Test Cases/Negatif Login fb,Chrome 104.0.5112.81,"input email benar darienagree@gmail.com
+input password salah",,2022-08-17 15:17:59,2022-08-17 15:18:24,"24,543s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 104.0.5112.81,,,2022-08-17 15:17:59,2022-08-17 15:17:59,"0,003s",PASSED
+"openBrowser("""")",Chrome 104.0.5112.81,,,2022-08-17 15:18:00,2022-08-17 15:18:03,"2,800s",PASSED
+maximizeWindow(),Chrome 104.0.5112.81,,,2022-08-17 15:18:03,2022-08-17 15:18:03,"0,147s",PASSED
+"navigateToUrl(""https://www.facebook.com/login"")",Chrome 104.0.5112.81,,,2022-08-17 15:18:03,2022-08-17 15:18:09,"5,413s",PASSED
+"setText(findTestObject(""Object Repository/login negatif/Page_Log in to Facebook/input_Log in to Facebook_email""), ""darienagree@gmail.com"")",Chrome 104.0.5112.81,,,2022-08-17 15:18:09,2022-08-17 15:18:10,"1,016s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/login negatif/Page_Log in to Facebook/input_Log in to Facebook_pass""), ""OLUQhjYwpvB4kdu1+lGVeA=="")",Chrome 104.0.5112.81,,,2022-08-17 15:18:10,2022-08-17 15:18:10,"0,566s",PASSED
+"click(findTestObject(""Object Repository/login negatif/Page_Log in to Facebook/button_Log In""))",Chrome 104.0.5112.81,,,2022-08-17 15:18:10,2022-08-17 15:18:11,"0,459s",PASSED
+"waitForAlert(10, CONTINUE_ON_FAILURE)",Chrome 104.0.5112.81,,,2022-08-17 15:18:11,2022-08-17 15:18:22,"11,149s",PASSED
+"takeScreenshot(""ss/screen5.png"")",Chrome 104.0.5112.81,,,2022-08-17 15:18:22,2022-08-17 15:18:22,"0,459s",PASSED
+closeBrowser(),Chrome 104.0.5112.81,,,2022-08-17 15:18:22,2022-08-17 15:18:24,"1,585s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 104.0.5112.81,,,2022-08-17 15:18:24,2022-08-17 15:18:24,"0,002s",PASSED
+,,,,,,,
+Test Cases/Positif Login fb,Chrome 104.0.5112.81,,,2022-08-17 15:18:24,2022-08-17 15:18:46,"22,436s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 104.0.5112.81,,,2022-08-17 15:18:24,2022-08-17 15:18:24,"0,005s",PASSED
+"openBrowser("""")",Chrome 104.0.5112.81,,,2022-08-17 15:18:25,2022-08-17 15:18:28,"2,826s",PASSED
+maximizeWindow(),Chrome 104.0.5112.81,,,2022-08-17 15:18:28,2022-08-17 15:18:28,"0,152s",PASSED
+"navigateToUrl(""https://www.facebook.com/login"")",Chrome 104.0.5112.81,,,2022-08-17 15:18:28,2022-08-17 15:18:33,"5,369s",PASSED
+"setText(findTestObject(""Object Repository/Page_Log in to Facebook/input_Log in to Facebook_email""), ""darienagree@gmail.com"")",Chrome 104.0.5112.81,,,2022-08-17 15:18:33,2022-08-17 15:18:34,"1,026s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Log in to Facebook/input_Log in to Facebook_pass""), ""CP4kq14s4UIcGFAtz0pEkw=="")",Chrome 104.0.5112.81,,,2022-08-17 15:18:34,2022-08-17 15:18:35,"0,715s",PASSED
+"click(findTestObject(""Object Repository/Page_Log in to Facebook/button_Log In""))",Chrome 104.0.5112.81,,,2022-08-17 15:18:35,2022-08-17 15:18:35,"0,488s",PASSED
+"takeScreenshot(""ss/screen1.png"")",Chrome 104.0.5112.81,,,2022-08-17 15:18:35,2022-08-17 15:18:45,"9,885s",PASSED
+closeBrowser(),Chrome 104.0.5112.81,,,2022-08-17 15:18:45,2022-08-17 15:18:46,"1,166s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 104.0.5112.81,,,2022-08-17 15:18:46,2022-08-17 15:18:46,"0,002s",PASSED

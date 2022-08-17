@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="150.005" tests="5" failures="0" errors="0">
+   <testsuite name="Login" tests="5" failures="0" errors="0" time="150.005" skipped="0" timestamp="2022-08-17 15:16:16" hostname="Windows 10 - DESKTOP-JI6AST2.mshome.net" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\DOWNLOAD ONLINE\\Katalon_Studio_Windows_64-8.3.5\\FacebookTest\\Reports\\20220817_151556\\Login\\20220817_151556"/>
+         <property name="logFiles" value="D:\\DOWNLOAD ONLINE\\Katalon_Studio_Windows_64-8.3.5\\FacebookTest\\Reports\\20220817_151556\\Login\\20220817_151556\\execution0.log"/>
+         <property name="attachments" value="D:\\DOWNLOAD ONLINE\\Katalon_Studio_Windows_64-8.3.5\\FacebookTest\\Reports\\20220817_151556\\Login\\20220817_151556\\ss/screen4.png, D:\\DOWNLOAD ONLINE\\Katalon_Studio_Windows_64-8.3.5\\FacebookTest\\Reports\\20220817_151556\\Login\\20220817_151556\\ss/screen3.png, D:\\DOWNLOAD ONLINE\\Katalon_Studio_Windows_64-8.3.5\\FacebookTest\\Reports\\20220817_151556\\Login\\20220817_151556\\ss/screen2.png, D:\\DOWNLOAD ONLINE\\Katalon_Studio_Windows_64-8.3.5\\FacebookTest\\Reports\\20220817_151556\\Login\\20220817_151556\\ss/screen5.png, D:\\DOWNLOAD ONLINE\\Katalon_Studio_Windows_64-8.3.5\\FacebookTest\\Reports\\20220817_151556\\Login\\20220817_151556\\ss/screen1.png"/>
+         <property name="hostName" value="Windows 10 - DESKTOP-JI6AST2.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 104.0.5112.81"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="f617784c3a195ca9e318c2b758b27753"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Negatif Login fb ver 2" time="31.688" classname="Test Cases/Negatif Login fb ver 2" status="PASSED">
+         <system-out><![CDATA[2022-08-17 15:16:25 - [TEST_CASE][PASSED] - Test Cases/Negatif Login fb ver 2: Test Cases/Negatif Login fb ver 2
+
+2022-08-17 15:16:26 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-08-17 15:16:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-08-17 15:16:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-08-17 15:16:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-17 15:16:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-08-17 15:16:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-17 15:16:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-17 15:16:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-17 15:16:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-17 15:16:33 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-17 15:16:33 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/login"): Navigate to 'https://www.facebook.com/login' successfully
+
+2022-08-17 15:16:41 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/login' successfully
+
+2022-08-17 15:16:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/login negatif email salah pw benar/Page_Log in to Facebook/input_Log in to Facebook_email"), "darienagree@gil.com"): Text 'darienagree@gil.com' is set on object 'Object Repository/login negatif email salah pw benar/Page_Log in to Facebook/input_Log in to Facebook_email'
+
+2022-08-17 15:16:42 - [MESSAGE][PASSED] - Text 'darienagree@gil.com' is set on object 'Object Repository/login negatif email salah pw benar/Page_Log in to Facebook/input_Log in to Facebook_email'
+
+2022-08-17 15:16:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/login negatif email salah pw benar/Page_Log in to Facebook/input_Log in to Facebook_pass"), "CP4kq14s4UIcGFAtz0pEkw=="): Text ****** has been set on object 'Object Repository/login negatif email salah pw benar/Page_Log in to Facebook/input_Log in to Facebook_pass'
+
+2022-08-17 15:16:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login negatif email salah pw benar/Page_Log in to Facebook/input_Log in to Facebook_pass'
+
+2022-08-17 15:16:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login negatif email salah pw benar/Page_Log in to Facebook/button_Log In")): Object: 'Object Repository/login negatif email salah pw benar/Page_Log in to Facebook/button_Log In' is clicked on
+
+2022-08-17 15:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/login negatif email salah pw benar/Page_Log in to Facebook/button_Log In' is clicked on
+
+2022-08-17 15:16:43 - [TEST_STEP][PASSED] - waitForAlert(10): No alert found after 10 second(s).
+
+2022-08-17 15:16:54 - [MESSAGE][WARNING] - No alert found after 10 second(s).
+
+2022-08-17 15:16:54 - [TEST_STEP][PASSED] - takeScreenshot("ss/screen4.png"): Taking screenshot successfully
+
+2022-08-17 15:16:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\DOWNLOAD ONLINE\\Katalon_Studio_Windows_64-8.3.5\\FacebookTest\\Reports\\20220817_151556\\Login\\20220817_151556\\ss/screen4.png]]
+
+2022-08-17 15:16:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-17 15:16:57 - [MESSAGE][PASSED] - Browser is closed
+
+2022-08-17 15:16:57 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-08-17 15:16:57 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-08-17 15:16:57 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negatif Login fb ver 3" time="35.007" classname="Test Cases/Negatif Login fb ver 3" status="PASSED">
+         <system-out><![CDATA[2022-08-17 15:16:57 - [TEST_CASE][PASSED] - Test Cases/Negatif Login fb ver 3: Test Cases/Negatif Login fb ver 3
+
+2022-08-17 15:16:57 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-08-17 15:16:57 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-08-17 15:16:57 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-08-17 15:16:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-17 15:16:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-17 15:16:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-17 15:17:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-17 15:17:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-17 15:17:05 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-17 15:17:05 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/login"): Navigate to 'https://www.facebook.com/login' successfully
+
+2022-08-17 15:17:17 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/login' successfully
+
+2022-08-17 15:17:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/login email gapake gmail, pw benar/Page_Log in to Facebook/input_Log in to Facebook_email"), "darienagree"): Text 'darienagree' is set on object 'Object Repository/login email gapake gmail, pw benar/Page_Log in to Facebook/input_Log in to Facebook_email'
+
+2022-08-17 15:17:18 - [MESSAGE][PASSED] - Text 'darienagree' is set on object 'Object Repository/login email gapake gmail, pw benar/Page_Log in to Facebook/input_Log in to Facebook_email'
+
+2022-08-17 15:17:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/login email gapake gmail, pw benar/Page_Log in to Facebook/input_Log in to Facebook_pass"), "CP4kq14s4UIcGFAtz0pEkw=="): Text ****** has been set on object 'Object Repository/login email gapake gmail, pw benar/Page_Log in to Facebook/input_Log in to Facebook_pass'
+
+2022-08-17 15:17:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login email gapake gmail, pw benar/Page_Log in to Facebook/input_Log in to Facebook_pass'
+
+2022-08-17 15:17:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login email gapake gmail, pw benar/Page_Log in to Facebook/button_Log In")): Object: 'Object Repository/login email gapake gmail, pw benar/Page_Log in to Facebook/button_Log In' is clicked on
+
+2022-08-17 15:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/login email gapake gmail, pw benar/Page_Log in to Facebook/button_Log In' is clicked on
+
+2022-08-17 15:17:19 - [TEST_STEP][PASSED] - waitForAlert(10): No alert found after 10 second(s).
+
+2022-08-17 15:17:29 - [MESSAGE][WARNING] - No alert found after 10 second(s).
+
+2022-08-17 15:17:29 - [TEST_STEP][PASSED] - takeScreenshot("ss/screen3.png"): Taking screenshot successfully
+
+2022-08-17 15:17:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\DOWNLOAD ONLINE\\Katalon_Studio_Windows_64-8.3.5\\FacebookTest\\Reports\\20220817_151556\\Login\\20220817_151556\\ss/screen3.png]]
+
+2022-08-17 15:17:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-17 15:17:32 - [MESSAGE][PASSED] - Browser is closed
+
+2022-08-17 15:17:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-08-17 15:17:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-08-17 15:17:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negatif Login fb ver 4" time="27.234" classname="Test Cases/Negatif Login fb ver 4" status="PASSED">
+         <system-out><![CDATA[2022-08-17 15:17:32 - [TEST_CASE][PASSED] - Test Cases/Negatif Login fb ver 4: Test Cases/Negatif Login fb ver 4
+
+2022-08-17 15:17:32 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-08-17 15:17:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-08-17 15:17:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-08-17 15:17:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-17 15:17:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-17 15:17:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-17 15:17:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-17 15:17:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-17 15:17:38 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-17 15:17:38 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/login"): Navigate to 'https://www.facebook.com/login' successfully
+
+2022-08-17 15:17:44 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/login' successfully
+
+2022-08-17 15:17:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/email benar, pw salah 1 huruf/Page_Log in to Facebook/input_Log in to Facebook_email"), "darienagree@gmail.com"): Text 'darienagree@gmail.com' is set on object 'Object Repository/email benar, pw salah 1 huruf/Page_Log in to Facebook/input_Log in to Facebook_email'
+
+2022-08-17 15:17:46 - [MESSAGE][PASSED] - Text 'darienagree@gmail.com' is set on object 'Object Repository/email benar, pw salah 1 huruf/Page_Log in to Facebook/input_Log in to Facebook_email'
+
+2022-08-17 15:17:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/email benar, pw salah 1 huruf/Page_Log in to Facebook/input_Log in to Facebook_pass"), "vQCARFRNWVUan1/SSUktaw=="): Text ****** has been set on object 'Object Repository/email benar, pw salah 1 huruf/Page_Log in to Facebook/input_Log in to Facebook_pass'
+
+2022-08-17 15:17:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/email benar, pw salah 1 huruf/Page_Log in to Facebook/input_Log in to Facebook_pass'
+
+2022-08-17 15:17:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/email benar, pw salah 1 huruf/Page_Log in to Facebook/button_Log In")): Object: 'Object Repository/email benar, pw salah 1 huruf/Page_Log in to Facebook/button_Log In' is clicked on
+
+2022-08-17 15:17:47 - [MESSAGE][PASSED] - Object: 'Object Repository/email benar, pw salah 1 huruf/Page_Log in to Facebook/button_Log In' is clicked on
+
+2022-08-17 15:17:47 - [TEST_STEP][PASSED] - waitForAlert(10): No alert found after 10 second(s).
+
+2022-08-17 15:17:58 - [MESSAGE][WARNING] - No alert found after 10 second(s).
+
+2022-08-17 15:17:58 - [TEST_STEP][PASSED] - takeScreenshot("ss/screen2.png"): Taking screenshot successfully
+
+2022-08-17 15:17:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\DOWNLOAD ONLINE\\Katalon_Studio_Windows_64-8.3.5\\FacebookTest\\Reports\\20220817_151556\\Login\\20220817_151556\\ss/screen2.png]]
+
+2022-08-17 15:17:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-17 15:17:59 - [MESSAGE][PASSED] - Browser is closed
+
+2022-08-17 15:17:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-08-17 15:17:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-08-17 15:17:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negatif Login fb" time="24.543" classname="Test Cases/Negatif Login fb" status="PASSED">
+         <system-out><![CDATA[2022-08-17 15:17:59 - [TEST_CASE][PASSED] - Test Cases/Negatif Login fb: Test Cases/Negatif Login fb
+
+2022-08-17 15:17:59 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-08-17 15:17:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-08-17 15:17:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-08-17 15:18:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-17 15:18:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-17 15:18:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-17 15:18:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-17 15:18:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-17 15:18:03 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-17 15:18:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/login"): Navigate to 'https://www.facebook.com/login' successfully
+
+2022-08-17 15:18:09 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/login' successfully
+
+2022-08-17 15:18:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/login negatif/Page_Log in to Facebook/input_Log in to Facebook_email"), "darienagree@gmail.com"): Text 'darienagree@gmail.com' is set on object 'Object Repository/login negatif/Page_Log in to Facebook/input_Log in to Facebook_email'
+
+2022-08-17 15:18:10 - [MESSAGE][PASSED] - Text 'darienagree@gmail.com' is set on object 'Object Repository/login negatif/Page_Log in to Facebook/input_Log in to Facebook_email'
+
+2022-08-17 15:18:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/login negatif/Page_Log in to Facebook/input_Log in to Facebook_pass"), "OLUQhjYwpvB4kdu1+lGVeA=="): Text ****** has been set on object 'Object Repository/login negatif/Page_Log in to Facebook/input_Log in to Facebook_pass'
+
+2022-08-17 15:18:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login negatif/Page_Log in to Facebook/input_Log in to Facebook_pass'
+
+2022-08-17 15:18:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login negatif/Page_Log in to Facebook/button_Log In")): Object: 'Object Repository/login negatif/Page_Log in to Facebook/button_Log In' is clicked on
+
+2022-08-17 15:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/login negatif/Page_Log in to Facebook/button_Log In' is clicked on
+
+2022-08-17 15:18:11 - [TEST_STEP][PASSED] - waitForAlert(10, CONTINUE_ON_FAILURE): No alert found after 10 second(s).
+
+2022-08-17 15:18:22 - [MESSAGE][WARNING] - No alert found after 10 second(s).
+
+2022-08-17 15:18:22 - [TEST_STEP][PASSED] - takeScreenshot("ss/screen5.png"): Taking screenshot successfully
+
+2022-08-17 15:18:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\DOWNLOAD ONLINE\\Katalon_Studio_Windows_64-8.3.5\\FacebookTest\\Reports\\20220817_151556\\Login\\20220817_151556\\ss/screen5.png]]
+
+2022-08-17 15:18:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-17 15:18:24 - [MESSAGE][PASSED] - Browser is closed
+
+2022-08-17 15:18:24 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-08-17 15:18:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-08-17 15:18:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positif Login fb" time="22.436" classname="Test Cases/Positif Login fb" status="PASSED">
+         <system-out><![CDATA[2022-08-17 15:18:24 - [TEST_CASE][PASSED] - Test Cases/Positif Login fb: Test Cases/Positif Login fb
+
+2022-08-17 15:18:24 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-08-17 15:18:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-08-17 15:18:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-08-17 15:18:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-17 15:18:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-17 15:18:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-17 15:18:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-17 15:18:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-17 15:18:28 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-17 15:18:28 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/login"): Navigate to 'https://www.facebook.com/login' successfully
+
+2022-08-17 15:18:33 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/login' successfully
+
+2022-08-17 15:18:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Log in to Facebook/input_Log in to Facebook_email"), "darienagree@gmail.com"): Text 'darienagree@gmail.com' is set on object 'Object Repository/Page_Log in to Facebook/input_Log in to Facebook_email'
+
+2022-08-17 15:18:34 - [MESSAGE][PASSED] - Text 'darienagree@gmail.com' is set on object 'Object Repository/Page_Log in to Facebook/input_Log in to Facebook_email'
+
+2022-08-17 15:18:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Log in to Facebook/input_Log in to Facebook_pass"), "CP4kq14s4UIcGFAtz0pEkw=="): Text ****** has been set on object 'Object Repository/Page_Log in to Facebook/input_Log in to Facebook_pass'
+
+2022-08-17 15:18:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in to Facebook/input_Log in to Facebook_pass'
+
+2022-08-17 15:18:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Log in to Facebook/button_Log In")): Object: 'Object Repository/Page_Log in to Facebook/button_Log In' is clicked on
+
+2022-08-17 15:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in to Facebook/button_Log In' is clicked on
+
+2022-08-17 15:18:35 - [TEST_STEP][PASSED] - takeScreenshot("ss/screen1.png"): Taking screenshot successfully
+
+2022-08-17 15:18:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\DOWNLOAD ONLINE\\Katalon_Studio_Windows_64-8.3.5\\FacebookTest\\Reports\\20220817_151556\\Login\\20220817_151556\\ss/screen1.png]]
+
+2022-08-17 15:18:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-17 15:18:46 - [MESSAGE][PASSED] - Browser is closed
+
+2022-08-17 15:18:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-08-17 15:18:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-08-17 15:18:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-17 15:16:16 - [TEST_SUITE][PASSED] - Login: Test Cases/Positif Login fb]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
