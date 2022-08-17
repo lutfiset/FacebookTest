@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>email benar darienagree@gmail.com
+password salah yes12345 (benar : Yes12345)</description>
+   <name>Negatif Login fb ver 4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aae2e7d1-eebc-4118-86bd-902d414c9fd4</testCaseGuid>
+</TestCaseEntity>
