@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>input email benar darienagree@gmail.com
-input password salah</description>
-   <name>Negatif Login fb</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ae153643-c8ea-40c2-9c5d-955076245915</testCaseGuid>
-</TestCaseEntity>
